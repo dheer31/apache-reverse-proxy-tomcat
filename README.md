@@ -6,7 +6,20 @@ This project demonstrates how to configure **Apache HTTP Server (apache2)** as a
 
 ## Architecture
 
+
+
 ```text
+
+
+
+/etc/apache2/
+├── apache2.conf
+├── ports.conf
+├── mods-available/
+├── mods-enabled/
+├── sites-available/
+└── sites-enabled/
+
                   Client
                      |
               HTTP (Port 80)
